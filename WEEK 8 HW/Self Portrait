@@ -1,0 +1,20 @@
+function setup() {
+  createCanvas(400,400);
+}
+
+function draw() {
+  background(400);
+  ellipse(200,255,70,100);
+  circle(200,180,70);
+  triangle(200, 185, 200, 195, 220, 187);
+  circle(215,172,10);
+  circle(185,172,10);
+  line(250, 370, 220, 294);
+  line(150, 370, 180, 294);
+  rect(105,220,70,10);
+  rect(225,220,70,10);
+  point(215, 172);
+  point(185, 172);
+  text('Self Portrait', 170, 15);
+  text('by Finn Liddell', 320, 397);
+}
