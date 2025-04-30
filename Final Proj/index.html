@@ -1,1 +1,141 @@
-code here
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane Doe Photography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: #f9fafb;
+            color: #1f2937;
+        }
+        header {
+            background: #3b82f6;
+            color: #ffffff;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 1.8rem;
+        }
+        nav a {
+            color: #ffffff;
+            margin-left: 2rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #bfdbfe;
+        }
+        .hero {
+            height: 90vh;
+            background: url('https://source.unsplash.com/1600x900/?modern,photography') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 2rem;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .section h3 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #3b82f6;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .contact {
+            background: #1f2937;
+            color: #f9fafb;
+            text-align: center;
+            padding: 3rem 2rem;
+        }
+        .contact a {
+            color: #3b82f6;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            background: #111827;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jane Doe</h1>
+        <nav>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h2>Capturing Moments, Creating Memories</h2>
+            <p>Freelance Photographer | Events | Portraits | Lifestyle</p>
+        </div>
+    </section>
+
+    <section class="section" id="portfolio">
+        <h3>Portfolio</h3>
+        <div class="gallery">
+            <img src="https://source.unsplash.com/400x400/?wedding,photography" alt="Portfolio image">
+            <img src="https://source.unsplash.com/400x400/?portrait,photography" alt="Portfolio image">
+            <img src="https://source.unsplash.com/400x400/?nature,photography" alt="Portfolio image">
+            <img src="https://source.unsplash.com/400x400/?city,photography" alt="Portfolio image">
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <h3>About Me</h3>
+        <p style="text-align:center; max-width:700px; margin:auto;">I'm Jane, a freelance photographer passionate about capturing the magic in everyday moments. With a love for natural light and authentic emotion, I specialize in weddings, portraits, and lifestyle photography. Let's work together to create something beautiful.</p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h3>Let's Connect</h3>
+        <p>Ready to book a session or have any questions?</p>
+        <p><a href="mailto:janedoe@example.com">janedoe@example.com</a></p>
+    </section>
+
+    <footer>
+        &copy; 2025 Jane Doe Photography | All Rights Reserved
+    </footer>
+</body>
+</html>
